@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const PORT = 4000;
 const modelsRoutes = express.Router();
 
-let Models = require('./models.model');
+let Models = require('./models/models.model');
 
 
 app.use(cors());
